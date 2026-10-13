@@ -1,0 +1,11 @@
+@App.Api_HostAddress = http://localhost:5212
+
+GET {{App.Api_HostAddress}}/api/tracks
+Accept: application/json
+
+###
+
+GET {{App.Api_HostAddress}}/api/tracks/8f1c2a6e-3b4d-4c5e-9f60-1a2b3c4d5e01
+Accept: application/json
+
+###
